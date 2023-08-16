@@ -41,34 +41,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := trial_2
+BUILD_ARTIFACT_NAME := basic_segger
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-trial_2.elf \
+basic_segger.elf \
 
 MAP_FILES += \
-trial_2.map \
+basic_segger.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-trial_2.list \
+basic_segger.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: trial_2.elf secondary-outputs
+main-build: basic_segger.elf secondary-outputs
 
 # Tool invocations
-trial_2.elf trial_2.map: $(OBJS) $(USER_OBJS) C:\Users\pranj\Pranjal\Github\divy_frtos\trial_2\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "trial_2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\pranj\Pranjal\Github\divy_frtos\trial_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="trial_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+basic_segger.elf basic_segger.map: $(OBJS) $(USER_OBJS) C:\Users\pranj\Pranjal\Github\test_frtos\basic_segger\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "basic_segger.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\pranj\Pranjal\Github\test_frtos\basic_segger\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="basic_segger.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -77,14 +77,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-trial_2.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "trial_2.list"
+basic_segger.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "basic_segger.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout trial_2.elf trial_2.list trial_2.map
+	-$(RM) basic_segger.elf basic_segger.list basic_segger.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

@@ -1,0 +1,31 @@
+!SESSION 2023-08-16 18:46:43.892 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  C:\Users\pranj\Pranjal\Github\divy_frtos\trial_2\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\pranj\Pranjal\Github\test_frtos C:\Users\pranj\Pranjal\Github\divy_frtos\trial_2\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-16 18:46:50.482
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-16 18:46:50.560
+!MESSAGE Log4j initialized with config file C:\Users\pranj\Pranjal\Github\test_frtos\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-16 18:46:53.630
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-16 18:47:01.427
+!MESSAGE Indexed 'trial_2' (36 sources, 149 headers) in 5.75 sec: 15,276 declarations; 73,370 references; 11 unresolved inclusions; 1,058 syntax errors; 1,530 unresolved names (1.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-16 18:49:31.659
+!MESSAGE Indexed 'basic_segger' (36 sources, 149 headers) in 2.71 sec: 15,343 declarations; 75,792 references; 3 unresolved inclusions; 154 syntax errors; 178 unresolved names (0.19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-16 18:49:49.082
+!MESSAGE Indexed 'basic_segge' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-16 18:50:19.243
+!MESSAGE Indexed 'basic_segger' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-08-16 18:55:23.375
+!MESSAGE Won't launch debug session since we failed to locate the binary.
