@@ -1,8 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:basic_segger
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:basic_segger_integrate_full.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:basic_segger_integrate_full,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:basic_segger_integrate
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:basic_segger/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:basic_segger_integrate/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:basic_segger_integrate/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:trial_2/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:trial_2/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:basic_segger_integrate_full.elf/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:basic_segger_integrate_full.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
