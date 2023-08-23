@@ -1,0 +1,10 @@
+19:42:10 **** Incremental Build of configuration Debug for project basic_segger_integrate_full ****
+make -j16 all 
+arm-none-eabi-size   basic_segger_integrate_full.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30360	    128	  84640	 115128	  1c1b8	basic_segger_integrate_full.elf
+Finished building: default.size.stdout
+ 
+
+19:42:10 Build Finished. 0 errors, 0 warnings. (took 366ms)
+
