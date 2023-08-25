@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;segger_integrate/basic_segger_integrate_full.launch&apos; to &apos;segger_integrate.launch&apos;" description="Rename resource &apos;basic_segger_integrate_full.launch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="basic_segger_integrate_full.launch" name="segger_integrate.launch" stamp="1692970397478" updateReferences="true"/>
+</session>
