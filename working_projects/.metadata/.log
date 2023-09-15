@@ -1119,3 +1119,100 @@ java.lang.Exception: File: C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_pr
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-15 21:40:17.717
 !MESSAGE Won't launch debug session since we failed to locate the binary.
+!SESSION 2023-09-15 22:04:51.696 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-15 22:04:59.049
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-15 22:04:59.127
+!MESSAGE Log4j initialized with config file C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-15 22:05:04.843
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.buildanalyzer.ui 1 0 2023-09-15 22:05:09.923
+!MESSAGE Failed to parse map file
+!STACK 0
+java.io.FileNotFoundException: C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption\Debug\basic_tasks_without_preemption.map (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at elf_analyzer.datamodel.BuildDataProviderMap.readFile(BuildDataProviderMap.java:55)
+	at elf_analyzer.datamodel.BuildDataProviderMap.compute(BuildDataProviderMap.java:349)
+	at elf_analyzer.datamodel.BuildDataProviderMap.computeMemConfig(BuildDataProviderMap.java:392)
+	at elf_analyzer.datamodel.BuildData.compute(BuildData.java:80)
+	at elf_analyzer.ElfAnalyzerView.inputChanged(ElfAnalyzerView.java:263)
+	at elf_analyzer.ElfAnalyzerView.lambda$7(ElfAnalyzerView.java:503)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.buildanalyzer.ui 1 0 2023-09-15 22:05:10.970
+!MESSAGE Failed to parse map file
+!STACK 0
+java.io.FileNotFoundException: C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption\Debug\basic_tasks_without_preemption.map (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at elf_analyzer.datamodel.BuildDataProviderMap.readFile(BuildDataProviderMap.java:55)
+	at elf_analyzer.datamodel.BuildDataProviderMap.compute(BuildDataProviderMap.java:349)
+	at elf_analyzer.datamodel.BuildDataProviderMap.computeLinkerSymbols(BuildDataProviderMap.java:400)
+	at elf_analyzer.datamodel.BuildData.compute(BuildData.java:102)
+	at elf_analyzer.ElfAnalyzerView.inputChanged(ElfAnalyzerView.java:263)
+	at elf_analyzer.ElfAnalyzerView.lambda$7(ElfAnalyzerView.java:503)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2023-09-15 22:05:18.217
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption\Debug\basic_tasks_without_preemption.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:921)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1263)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.core.resources 4 77 2023-09-15 22:05:18.451
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-09-15 22:05:18.451
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-09-15 22:05:18.451
+!MESSAGE C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption overlaps the location of another project: 'basic_tasks_without_preemption'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2023-09-15 22:05:18.456
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2023-09-15 22:06:39.318
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-09-15 22:06:39.318
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-09-15 22:06:39.318
+!MESSAGE C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption overlaps the location of another project: 'basic_tasks_without_preemption'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2023-09-15 22:06:39.318
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 22:06:52.673
+!MESSAGE Indexed '2_basic_tasks_without_preemption' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-15 22:07:37.274
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 22:08:37.862
+!MESSAGE Indexed 'basic_svw1' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 22:08:45.079
+!MESSAGE Indexed 'basic_svw' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 22:08:58.085
+!MESSAGE Indexed '3_basic_svw' (32 sources, 138 headers) in 2.72 sec: 14,255 declarations; 78,874 references; 3 unresolved inclusions; 154 syntax errors; 175 unresolved names (0.19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 22:10:05.996
+!MESSAGE Indexed '4_segger_integrate' (36 sources, 149 headers) in 1.87 sec: 15,347 declarations; 75,808 references; 3 unresolved inclusions; 154 syntax errors; 178 unresolved names (0.19%)
