@@ -1056,3 +1056,66 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/basic_segger_
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2023-08-25 19:10:09.076
 !MESSAGE Project is null
+!SESSION 2023-09-15 21:30:23.790 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-15 21:30:29.009
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-15 21:30:29.090
+!MESSAGE Log4j initialized with config file C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-15 21:30:36.390
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 21:31:54.545
+!MESSAGE Indexed 'basic_uart_without_segger' (34 sources, 142 headers) in 5.55 sec: 15,704 declarations; 90,060 references; 3 unresolved inclusions; 154 syntax errors; 175 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 21:33:23.545
+!MESSAGE Indexed 'basic_uart_without_segger' (34 sources, 142 headers) in 3.28 sec: 15,704 declarations; 90,060 references; 3 unresolved inclusions; 154 syntax errors; 175 unresolved names (0.17%)
+
+!ENTRY org.eclipse.core.resources 4 77 2023-09-15 21:36:35.681
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-09-15 21:36:35.681
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-09-15 21:36:35.681
+!MESSAGE C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption overlaps the location of another project: 'basic_tasks_without_preemption'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2023-09-15 21:36:35.696
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2023-09-15 21:36:38.402
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2023-09-15 21:36:38.402
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2023-09-15 21:36:38.402
+!MESSAGE C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\basic_tasks_without_preemption overlaps the location of another project: 'basic_tasks_without_preemption'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2023-09-15 21:36:38.402
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-15 21:37:07.039
+!MESSAGE Indexed '1_uart_without_segger' (34 sources, 142 headers) in 2.29 sec: 15,706 declarations; 89,966 references; 3 unresolved inclusions; 154 syntax errors; 175 unresolved names (0.17%)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2023-09-15 21:38:06.488
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: C:\Users\pranj\Pranjal\Github\FreeRTOS_STM\working_projects\1_uart_without_segger\Debug\basic_tasks_without_preemption.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:921)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1263)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-15 21:38:50.898
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-15 21:39:47.246
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-09-15 21:40:17.717
+!MESSAGE Won't launch debug session since we failed to locate the binary.
